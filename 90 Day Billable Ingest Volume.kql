@@ -1,0 +1,9 @@
+// Author: Ian D. Hanley @ KMicro Tech Inc. | LinkedIn: https://www.linkedin.com/company/kmicro/ | Blog: https://kmicro.com/blog/
+// This is great for checking out your billable ingest patterns over the past quarter for QBRs etc. 
+// If you see some wild highs and lows and need help making sense of the results, drop us a line! 
+
+Usage                                                                               // <--Query the Usage table
+| where TimeGenerated > ago(90d)                                                    // <--Query the last 90 days
+| where IsBillable == true                                                          // <--Only include 'billable' data
+| summarize TotalVolumeGB = sum(Quantity) / 1000 by bin(StartTime, 1d), Solution    // <--Chop it up into GB / Day
+| render columnchart                                                                // <--Graph the results
