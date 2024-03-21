@@ -1,3 +1,5 @@
+// Author: Ian D. Hanley @ KMicro Tech Inc. | LinkedIn: https://www.linkedin.com/company/kmicro/ | Blog: https://kmicro.com/blog/
+
 WindowsEvent
 | where TimeGenerated >ago(90d)
 | where EventID == "4672"
