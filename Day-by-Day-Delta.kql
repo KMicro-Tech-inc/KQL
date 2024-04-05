@@ -1,5 +1,5 @@
 // Author: Ian D. Hanley @ KMicro Tech Inc. | LinkedIn: https://www.linkedin.com/company/kmicro/ | Blog: https://kmicro.com/blog/
-// This query returns the day by day change as a percentage
+// This query returns the day by day change as a percentage and is a great way to identify growing or shrinking log sources. 
 
 Usage
 | where TimeGenerated > startofday(ago(31d))
