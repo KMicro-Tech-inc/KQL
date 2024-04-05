@@ -6,3 +6,8 @@ This repository is a library of simple KQL queries used to answer a variety of c
 
 - Once you've got your query perfected and returning the data exactly how you want it, you can **save it for later**, illustrated below:
 
+![](/Save_Query.jpg)
+
+<br/> 
+
+![](/Save_Query1.jpg)
