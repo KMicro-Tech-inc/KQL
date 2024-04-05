@@ -12,8 +12,8 @@
 
 <br/>
 
-![](/Save_Query.jpg)
+![](/img/Save_Query.jpg)
 
 <br/> 
 
-![](/Save_Query1.jpg)
+![](/img/Save_Query1.jpg)
